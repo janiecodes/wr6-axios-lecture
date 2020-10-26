@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Card from './Card';
-import axios from '.axios';
+import axios from 'axios';
 
 class Collection extends Component {
     constructor(){

@@ -3,7 +3,8 @@ import React from 'react';
 const Card = () => {
     return(
         <div className="card">
-            I am a cool card
+            <span>{props.name}</span>
+            <img alt={props.name} src={props.img}/>
         </div>
     )
 }
